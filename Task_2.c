@@ -53,7 +53,7 @@ int main(int argc, char*argv[]) {
     while (tokenPtr != NULL)
     {
         insert_node(&treePtr, atoi(tokenPtr));   
-		tokenPtr = strtok(argv[1],",");    
+		tokenPtr = strtok(NULL,",");    
     }
 
     printf("Initial version of binary tree:\n");
